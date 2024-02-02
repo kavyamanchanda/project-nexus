@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome! Login or Sign Up here</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Protest+Strike&display=swap" rel="stylesheet">
+    
+
+<script src="validation.js">
+</script>
+   
+</head>
+<body>
+
+
+   <h1>Welcome! Login or Sign Up here</h1>
+    <div class="container">
+        <h2>Login Form</h2>
+        <div class="input-container">
+        <form>
+            <input type="text" id = "uname" placeholder="Username" required>
+            <br>
+            <input type="password" id = "password" placeholder="Password" required>
+            <button onclick = "validatelogin()" type="submit">Login</button>
+            <button onclick = "exit()" type="submit" class="cancelbtn">Cancel</button>
+        </form>
+        </div>
+        
+    </div>
+
+    <div class="container">
+        <h2>Sign Up Form</h2>
+        <div class="input-container">
+        <form>
+            <input type="text" id = "uname1" placeholder="Username" required>
+            <br>
+            <input type="password" id = "password1" placeholder="Password" required>
+            <br>
+            <input type="password" id = "cpassword1" placeholder = "Confirm Password" required>
+            <button onclick = "validatesignup()" type="submit">Sign Up</button>
+            <button onclick = "exit()" type="submit" class="cancelbtn">Cancel</button>
+        </form>
+        </div>
+    </div>
+
+</body>
+</html>
